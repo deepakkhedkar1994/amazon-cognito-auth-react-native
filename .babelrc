@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [ "env", { "modules": false } ],
+    "stage-0",
+    "react",
+    "flow",
+    "es2015"
+  ],
+
+  "env": {
+    "test": {
+      "presets": [
+        "env"
+      ]
+    }
+  },
+
+  "plugins": [
+    "transform-runtime"
+  ]
+}
